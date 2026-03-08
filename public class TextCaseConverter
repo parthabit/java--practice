@@ -1,1 +1,59 @@
+import java.util.Scanner;
 
+public class TextCaseConverter {
+    // Method to convert string to Title Case
+    public static String toTitleCase(String input) {
+        String[] words = input.split(" ");
+        StringBuilder titleCase = new StringBuilder();
+        for (String word : words) {
+            if (word.length() > 0) {
+                titleCase.append(Character.toUpperCase(word.charAt(0)))
+                         .append(word.substring(1).toLowerCase())
+                         .append(" ");
+            }
+        }
+        return titleCase.toString().trim();
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int choice;
+        String text;
+
+        do {
+            System.out.println("\n--- Text Case Converter ---");
+            System.out.println("1. Convert to UPPERCASE");
+            System.out.println("2. Convert to lowercase");
+            System.out.println("3. Convert to Title Case");
+            System.out.println("4. Exit");
+            System.out.print("Enter your choice: ");
+            choice = sc.nextInt();
+            sc.nextLine(); // consume newline
+
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter text: ");
+                    text = sc.nextLine();
+                    System.out.println("Result: " + text.toUpperCase());
+                    break;
+                case 2:
+                    System.out.print("Enter text: ");
+                    text = sc.nextLine();
+                    System.out.println("Result: " + text.toLowerCase());
+                    break;
+                case 3:
+                    System.out.print("Enter text: ");
+                    text = sc.nextLine();
+                    System.out.println("Result: " + toTitleCase(text));
+                    break;
+                case 4:
+                    System.out.println("Exiting... Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid choice. Try again.");
+            }
+        } while (choice != 4);
+
+        sc.close();
+    }
+}
