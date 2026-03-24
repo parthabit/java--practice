@@ -5,6 +5,7 @@ public class CaseConverter {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter text: ");
         String text = sc.nextLine();
+        
 
         System.out.println("Choose conversion:");
         System.out.println("1. Lowercase");
