@@ -12,6 +12,7 @@ public class LinearSearch {
         int[] arr = {4, 2, 7, 1, 9, 3};
         int target = 7;
         int result = linearSearch(arr, target);
+        
 
         if (result != -1) {
             System.out.println("Element found at index: " + result);
