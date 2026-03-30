@@ -16,6 +16,9 @@ public class PalindromeCheck {
             right--;
         }
 
+
+        
+
         if (isPalindrome)
             System.out.println("Palindrome");
         else
