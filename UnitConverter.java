@@ -22,6 +22,7 @@ public class UnitConverter {
                     System.out.println(km + " km = " + miles + " miles");
                     break;
 
+                    
                 case 2:
                     System.out.print("Enter weight in kilograms: ");
                     double kg = sc.nextDouble();
