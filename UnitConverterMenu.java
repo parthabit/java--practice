@@ -33,6 +33,8 @@ public class UnitConverterMenu {
         } while (choice != 4);
 
         sc.close();
+
+        
     }
 
     // Length Converter
