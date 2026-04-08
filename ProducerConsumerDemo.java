@@ -7,6 +7,7 @@ class SharedBuffer {
 
     public SharedBuffer(int capacity) {
         this.CAPACITY = capacity;
+        
     }
 
     public synchronized void produce(int item) throws InterruptedException {
