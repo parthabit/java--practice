@@ -32,6 +32,7 @@ class HuffmanCoding {
         for (char c : text.toCharArray()) {
             freqMap.put(c, freqMap.getOrDefault(c, 0) + 1);
         }
+        
 
         // Priority queue
         PriorityQueue<HuffmanNode> q = new PriorityQueue<>(freqMap.size(), new MyComparator());
