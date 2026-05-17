@@ -7,6 +7,7 @@ public class evenodd {
 
         int evenCount = 0;
         int oddCount = 0;
+        
 
         for (int num : numbers) {
             if (num % 2 == 0) {
