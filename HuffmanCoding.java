@@ -33,7 +33,6 @@ class HuffmanCoding {
             freqMap.put(c, freqMap.getOrDefault(c, 0) + 1);
         }
         
-
         // Priority queue
         PriorityQueue<HuffmanNode> q = new PriorityQueue<>(freqMap.size(), new MyComparator());
 
