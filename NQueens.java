@@ -10,7 +10,6 @@ public class NQueens {
             System.out.println();
         }
     }
-
     static boolean isSafe(int[][] board, int row, int col) {
         for (int i = 0; i < row; i++)
             if (board[i][col] == 1)
