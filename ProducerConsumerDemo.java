@@ -30,7 +30,7 @@ class SharedBuffer {
         notifyAll(); // notify producers
         return item;
     }
-}
+} 
 
 class Producer implements Runnable {
     private SharedBuffer buffer;
