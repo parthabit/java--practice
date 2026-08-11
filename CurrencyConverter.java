@@ -5,7 +5,6 @@ public class CurrencyConverter {
         Scanner sc = new Scanner(System.in);
         int choice;
         double amount;
-
         do {
             System.out.println("\n--- Currency Converter Menu ---");
             System.out.println("1. INR to USD");
