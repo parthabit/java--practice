@@ -22,6 +22,7 @@ public class FantasyNameGenerator {
                     + suffixes[rand.nextInt(suffixes.length)];
         return name;
     }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
