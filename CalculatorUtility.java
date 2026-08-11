@@ -5,7 +5,6 @@ public class CalculatorUtility {
         Scanner sc = new Scanner(System.in);
         int choice;
         double num1, num2;
-
         do {
             System.out.println("\n--- Calculator Utility ---");
             System.out.println("1. Addition");
