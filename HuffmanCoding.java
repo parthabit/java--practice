@@ -5,6 +5,7 @@ class HuffmanNode {
     char ch;
     HuffmanNode left, right;
 }
+
 class HuffmanCoding {
     
     static class MyComparator implements Comparator<HuffmanNode> {
