@@ -6,7 +6,7 @@ public class PrimsAlgorithm {
     // Find vertex with minimum key value not yet included in MST
     int minKey(int[] key, boolean[] mstSet) {
         int min = Integer.MAX_VALUE, minIndex = -1;
-        for (int v = 0; v < V; v++) {
+        for (int v = 0; v < V; v++) { 
             if (!mstSet[v] && key[v] < min) {
                 min = key[v];
                 minIndex = v;
