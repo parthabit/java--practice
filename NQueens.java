@@ -38,7 +38,7 @@ public class NQueens {
                     return true;
 
                 board[row][col] = 0;
-            }
+            } 
         }
         return false;
     }
