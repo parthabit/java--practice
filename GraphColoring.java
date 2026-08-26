@@ -10,7 +10,6 @@ public class GraphColoring {
         numOfColors = noc;
         color = new int[V];
         graph = g;
-
         try {
             solve(0);
             System.out.println("No solution exists.");
