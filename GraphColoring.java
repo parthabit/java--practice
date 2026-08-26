@@ -5,7 +5,6 @@ public class GraphColoring {
     private int[] color;        // Color assigned to each vertex
     private int[][] graph;      // Graph adjacency matrix
 
-    // Function to assign colors
     public void graphColor(int[][] g, int noc) {
         V = g.length;
         numOfColors = noc;
