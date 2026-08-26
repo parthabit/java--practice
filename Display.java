@@ -5,5 +5,3 @@ public class Display{
         System.out.println(firstname + lastname);
     }
 }
-
-
