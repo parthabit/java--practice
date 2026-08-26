@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-
 public class JokeGenerator {
     private static List<String> jokes = new ArrayList<>();
     private static Random random = new Random();
