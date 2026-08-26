@@ -6,7 +6,7 @@ public class CalculatorUtility {
         int choice;
         double num1, num2;
         do {
-            System.out.println("\n--- Calculator Utility ---");
+            System.out.println("\n--- Calculator Utility ---"); 
             System.out.println("1. Addition");
             System.out.println("2. Subtraction");
             System.out.println("3. Multiplication");
