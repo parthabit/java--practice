@@ -26,5 +26,5 @@ public class CaseConverter {
             default: System.out.println("Invalid choice!");
         }
         sc.close();
-    }
+    } 
 }
