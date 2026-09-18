@@ -13,8 +13,6 @@ class HuffmanCoding {
             return x.freq - y.freq;
         }
     }
-
-    
     // Print Huffman codes
     public static void printCode(HuffmanNode root, String s) {
         if (root.left == null && root.right == null && Character.isLetter(root.ch)) {
