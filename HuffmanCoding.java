@@ -3,7 +3,7 @@ import java.util.*;
 class HuffmanNode {
     int freq;
     char ch;
-    HuffmanNode left, right;
+    HuffmanNode left, right; 
 }
 class HuffmanCoding {
     
